@@ -1,0 +1,210 @@
+/*TODO: ----------- iPad??? ----------- */
+@media only screen and (max-width: 600px) {
+  #ava_msg {
+    margin-left: 8em;
+  }
+  #emailBtn {
+    font-size: 12px !important;
+  }
+  #github {
+    margin-left: 0em !important;
+  }
+}
+
+/*TODO: ----------- iPhone ----------- */
+@media only screen and (max-width: 429px) {
+  .site-title {
+    background-color: rgb(221 237 255);
+  }
+  .px-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    padding: 0.1rem 1rem;
+    padding-bottom: 2em;
+  }
+  /* Blue border */
+  .timeline-card {
+    margin-left: 12px !important;
+  }
+  .timeline-card:before {
+    left: -21px !important;
+  }
+  .timeline-card:after {
+    width: 16px !important;
+    left: -16px !important;
+  }
+
+  .img_style {
+   
+    margin: auto !important;
+    width: 104% !important;
+    height: 113% !important;
+  }
+  .img_snow {
+   
+    margin: auto !important;
+    width: 96% !important;
+    height: 109% !important;
+  }
+  .moreInfo {
+    margin-top: 2em !important;
+    font-size: 11px !important;
+  }
+  .vaccineTitle {
+    margin-left: 0em !important;
+    font-size: 14px !important;
+  }
+  .img_pet {
+   
+    margin: auto !important;
+    width: 100% !important;
+    height: 110% !important;
+  }
+  .nickname_kata {
+    font-size: 15px !important;
+  }
+  .nickname_ja {
+    font-size: 25px !important;
+  }
+}
+
+/*TODO: ----------- iPhone Rotate----------- */
+@media only screen and (max-width: 896px) and (orientation: landscape) {
+  .offset-md-1 {
+    margin-top: 3em;
+    margin-left: -2.66667%;
+  }
+  .mb-2 {
+    font-size: 13.6px;
+  }
+  .col-sm-6 {
+    width: 100%;
+  }
+  .col-md-9 {
+    width: 93%;
+  }
+  div.h5.mb-1 {
+    font-size: 1.2em !important;
+  }
+  .moreInfo {
+    text-align: center;
+    margin-top: 2.5em !important;
+  }
+  .img_snow {
+    margin: 0em !important;
+   
+
+    width: 98% !important;
+    height: 83% !important;
+  }
+  .img_style {
+    
+    margin: auto !important;
+    margin-bottom: 2em;
+    width: 100% !important;
+    height: 113% !important;
+  }
+  .img_pet {
+    
+    margin: auto !important;
+    width: 100% !important;
+    height: 110% !important;
+  }
+  .nickname_kata {
+    font-size: 16px !important;
+  }
+  .nickname_ja {
+    font-size: 23px !important;
+  }
+}
+
+/*TODO: ----------- ??? ----------- */
+@media (min-width: 48em) {
+  .site-title {
+    float: left;
+  }
+  .site-nav {
+    float: right;
+  }
+  .avatar {
+    margin-bottom: -80px;
+    margin-left: 0;
+  }
+}
+/*TODO: Large desktop */
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1220px;
+  }
+  .img_style {
+    position: absolute;
+   
+    top: 29%;
+    left: 50%;
+    width: 47%;
+    height: 45%;
+  }
+  .img_pet {
+    position: absolute;
+    
+    left: 50%;
+    width: 45%;
+    height: 71%;
+  }
+  .img_snow {
+   
+    margin-left: 4em;
+    margin-top: -1.5em;
+    position: absolute;
+    left: 50%;
+    width: 34%;
+    height: 92%;
+  }
+}
+
+/*TODO: ----------- Print ----------- */
+@media print {
+  body {
+    background-color: #fff;
+  }
+  .container {
+    margin: auto 60 em !important;
+    width: auto;
+    max-width: 100%;
+    padding: 0;
+  }
+  .cover,
+  .cover-bg {
+    border-radius: 0;
+  }
+  .cover.shadow-lg {
+    box-shadow: none !important;
+  }
+  .cover-bg {
+    padding: 5rem !important;
+    padding-bottom: 10px !important;
+  }
+  .avatar {
+    margin-top: -10px;
+  }
+  .about-section {
+    padding: 6.5rem 5rem 2rem !important;
+  }
+  .skills-section,
+  .work-experience-section,
+  .education-section,
+  .contant-section {
+    padding: 1.5rem 5rem 2rem !important;
+  }
+  .page-break {
+    padding-top: 5rem;
+    page-break-before: always;
+  }
+}

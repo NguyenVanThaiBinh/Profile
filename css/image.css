@@ -1,0 +1,47 @@
+/* TODO: Avatar effect  */
+.avatar_zoom:hover {
+  transform: scale(1.2);
+}
+
+.msg_hover {
+  font-size: 18px;
+  font-family: "Lucida Console";
+  display: none;
+  margin-left: 17em;
+  color: black;
+}
+
+.avatar_cv {
+  transition: transform 1s !important;
+}
+
+.zoom_img :hover {
+  transition: transform 1s;
+
+  background-image: none;
+  transform: scale(1.2);
+}
+
+.changePage {
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.codegym {
+  border: 2px solid #ff992b;
+  border-radius: 62%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 46%;
+}
+.uyen {
+  border: 2px solid #ff992b;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 46%;
+}
